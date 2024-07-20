@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mapper namespace="com.sgcho.mybatisstudy.fruit.repository.FruitMapper">
+    <select id="selectById" resultType="com.sgcho.mybatisstudy.fruit.entity.Fruit">
+        SELECT * FROM fruit WHERE no = #{no}
+    </select>
+</mapper>
